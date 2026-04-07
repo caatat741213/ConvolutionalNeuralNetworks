@@ -1,7 +1,30 @@
-models/
-images/
-CourseNotebooks/
+# --- Python ---
 CNNvenv/
 Finevenv/
+.venv/
+env/
+venv/
+
+# --- data ---
+
+images/
+CourseNotebooks/
 data/
 kagglecatsanddogs_5340.zip
+
+# --- models ---
+models/
+*.h5
+*.keras
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+.DS_Store
+Thumbs.db
